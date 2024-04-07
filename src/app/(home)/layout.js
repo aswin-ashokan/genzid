@@ -1,6 +1,6 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import './globals.css'
+import Footer from "../../components/home-components/Footer";
+import Header from "../../components/home-components/Header";
+import '../globals.css'
 
 export const metadata = {
   title: "GenZid",
@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="" suppressHydrationWarning={true}>
-        <Header />
+        <Header/>
         {children}
         <Footer />
       </body>
